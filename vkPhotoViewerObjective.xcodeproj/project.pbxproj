@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AEE4CFC8790841595DCC634 /* libPods-vkPhotoViewerObjective.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE8F15994B24206514A2004 /* libPods-vkPhotoViewerObjective.a */; };
+		FEB3F8C11DD1CD1500E7731E /* AlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F8C01DD1CD1500E7731E /* AlbumsViewController.m */; };
+		FEB3F8C61DD1D7F100E7731E /* PhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F8C41DD1D7F100E7731E /* PhotoPreviewCell.m */; };
+		FEB3F8C71DD1D7F100E7731E /* PhotoPreviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB3F8C51DD1D7F100E7731E /* PhotoPreviewCell.xib */; };
+		FEB3F8CA1DD1E6FB00E7731E /* PhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F8C91DD1E6FB00E7731E /* PhotoListViewController.m */; };
+		FEB3F8CE1DD1E8BF00E7731E /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB3F8CC1DD1E8BF00E7731E /* PhotoCollectionViewCell.m */; };
+		FEB3F8CF1DD1E8BF00E7731E /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEB3F8CD1DD1E8BF00E7731E /* PhotoCollectionViewCell.xib */; };
+		FEBCF5E41DD0CC4F00E779B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF5E31DD0CC4F00E779B0 /* main.m */; };
+		FEBCF5E71DD0CC4F00E779B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF5E61DD0CC4F00E779B0 /* AppDelegate.m */; };
+		FEBCF5EA1DD0CC4F00E779B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF5E91DD0CC4F00E779B0 /* ViewController.m */; };
+		FEBCF5ED1DD0CC4F00E779B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBCF5EB1DD0CC4F00E779B0 /* Main.storyboard */; };
+		FEBCF5EF1DD0CC4F00E779B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBCF5EE1DD0CC4F00E779B0 /* Assets.xcassets */; };
+		FEBCF5F21DD0CC4F00E779B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBCF5F01DD0CC4F00E779B0 /* LaunchScreen.storyboard */; };
+		FEBCF5FF1DD0CDB400E779B0 /* Closed.png in Resources */ = {isa = PBXBuildFile; fileRef = FEBCF5FE1DD0CDB400E779B0 /* Closed.png */; };
+		FEBCF63B1DD0D30900E779B0 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF63A1DD0D30900E779B0 /* User.m */; };
+		FEBCF63E1DD0D34500E779B0 /* AlbumInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF63D1DD0D34500E779B0 /* AlbumInformation.m */; };
+		FEBCF6411DD0D36100E779B0 /* PhotoInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF6401DD0D36100E779B0 /* PhotoInformation.m */; };
+		FEBCF6441DD0D3A400E779B0 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF6431DD0D3A400E779B0 /* AccessToken.m */; };
+		FEBCF6471DD0D3CB00E779B0 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF6461DD0D3CB00E779B0 /* ServerManager.m */; };
+		FEBCF64A1DD0D5C700E779B0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBCF6491DD0D5C700E779B0 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4606286116C58659F7044BE3 /* Pods-vkPhotoViewerObjective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vkPhotoViewerObjective.release.xcconfig"; path = "Pods/Target Support Files/Pods-vkPhotoViewerObjective/Pods-vkPhotoViewerObjective.release.xcconfig"; sourceTree = "<group>"; };
+		6BB5E6E826BE368248827CBC /* Pods-vkPhotoViewerObjective.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vkPhotoViewerObjective.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vkPhotoViewerObjective/Pods-vkPhotoViewerObjective.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE8F15994B24206514A2004 /* libPods-vkPhotoViewerObjective.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vkPhotoViewerObjective.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB3F8BF1DD1CD1500E7731E /* AlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsViewController.h; sourceTree = "<group>"; };
+		FEB3F8C01DD1CD1500E7731E /* AlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsViewController.m; sourceTree = "<group>"; };
+		FEB3F8C31DD1D7F100E7731E /* PhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPreviewCell.h; sourceTree = "<group>"; };
+		FEB3F8C41DD1D7F100E7731E /* PhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPreviewCell.m; sourceTree = "<group>"; };
+		FEB3F8C51DD1D7F100E7731E /* PhotoPreviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoPreviewCell.xib; sourceTree = "<group>"; };
+		FEB3F8C81DD1E6FB00E7731E /* PhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListViewController.h; sourceTree = "<group>"; };
+		FEB3F8C91DD1E6FB00E7731E /* PhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListViewController.m; sourceTree = "<group>"; };
+		FEB3F8CB1DD1E8BF00E7731E /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		FEB3F8CC1DD1E8BF00E7731E /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		FEB3F8CD1DD1E8BF00E7731E /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		FEBCF5DF1DD0CC4F00E779B0 /* vkPhotoViewerObjective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkPhotoViewerObjective.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBCF5E31DD0CC4F00E779B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEBCF5E51DD0CC4F00E779B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEBCF5E61DD0CC4F00E779B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEBCF5E81DD0CC4F00E779B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEBCF5E91DD0CC4F00E779B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEBCF5EC1DD0CC4F00E779B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEBCF5EE1DD0CC4F00E779B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBCF5F11DD0CC4F00E779B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEBCF5F31DD0CC4F00E779B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBCF5FE1DD0CDB400E779B0 /* Closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Closed.png; sourceTree = "<group>"; };
+		FEBCF6391DD0D30900E779B0 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FEBCF63A1DD0D30900E779B0 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FEBCF63C1DD0D34500E779B0 /* AlbumInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumInformation.h; sourceTree = "<group>"; };
+		FEBCF63D1DD0D34500E779B0 /* AlbumInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumInformation.m; sourceTree = "<group>"; };
+		FEBCF63F1DD0D36100E779B0 /* PhotoInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoInformation.h; sourceTree = "<group>"; };
+		FEBCF6401DD0D36100E779B0 /* PhotoInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoInformation.m; sourceTree = "<group>"; };
+		FEBCF6421DD0D3A400E779B0 /* AccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		FEBCF6431DD0D3A400E779B0 /* AccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		FEBCF6451DD0D3CB00E779B0 /* ServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		FEBCF6461DD0D3CB00E779B0 /* ServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		FEBCF6481DD0D5C700E779B0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FEBCF6491DD0D5C700E779B0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBCF5DC1DD0CC4F00E779B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEE4CFC8790841595DCC634 /* libPods-vkPhotoViewerObjective.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF59A1EB010329E87FEFB512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE8F15994B24206514A2004 /* libPods-vkPhotoViewerObjective.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE4F86A5BFDDE47578EB651D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5E6E826BE368248827CBC /* Pods-vkPhotoViewerObjective.debug.xcconfig */,
+				4606286116C58659F7044BE3 /* Pods-vkPhotoViewerObjective.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEB3F8C21DD1D22600E7731E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEB3F8C31DD1D7F100E7731E /* PhotoPreviewCell.h */,
+				FEB3F8C41DD1D7F100E7731E /* PhotoPreviewCell.m */,
+				FEB3F8C51DD1D7F100E7731E /* PhotoPreviewCell.xib */,
+				FEB3F8CB1DD1E8BF00E7731E /* PhotoCollectionViewCell.h */,
+				FEB3F8CC1DD1E8BF00E7731E /* PhotoCollectionViewCell.m */,
+				FEB3F8CD1DD1E8BF00E7731E /* PhotoCollectionViewCell.xib */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		FEBCF5D61DD0CC4F00E779B0 = {
+			isa = PBXGroup;
+			children = (
+				FEBCF5E11DD0CC4F00E779B0 /* vkPhotoViewerObjective */,
+				FEBCF5E01DD0CC4F00E779B0 /* Products */,
+				EE4F86A5BFDDE47578EB651D /* Pods */,
+				CF59A1EB010329E87FEFB512 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBCF5E01DD0CC4F00E779B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBCF5DF1DD0CC4F00E779B0 /* vkPhotoViewerObjective.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBCF5E11DD0CC4F00E779B0 /* vkPhotoViewerObjective */ = {
+			isa = PBXGroup;
+			children = (
+				FEBCF5FD1DD0CD8400E779B0 /* UI */,
+				FEBCF5FC1DD0CD7400E779B0 /* Logic */,
+				FEBCF5FB1DD0CD6700E779B0 /* Libs */,
+				FEBCF5F91DD0CD4000E779B0 /* Image */,
+				FEBCF5E81DD0CC4F00E779B0 /* ViewController.h */,
+				FEBCF5E91DD0CC4F00E779B0 /* ViewController.m */,
+				FEBCF5EE1DD0CC4F00E779B0 /* Assets.xcassets */,
+				FEBCF5F01DD0CC4F00E779B0 /* LaunchScreen.storyboard */,
+				FEBCF5F31DD0CC4F00E779B0 /* Info.plist */,
+				FEBCF5E21DD0CC4F00E779B0 /* Supporting Files */,
+			);
+			path = vkPhotoViewerObjective;
+			sourceTree = "<group>";
+		};
+		FEBCF5E21DD0CC4F00E779B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEBCF5E31DD0CC4F00E779B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEBCF5F91DD0CD4000E779B0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FEBCF5FE1DD0CDB400E779B0 /* Closed.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		FEBCF5FB1DD0CD6700E779B0 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		FEBCF5FC1DD0CD7400E779B0 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				FEBCF6421DD0D3A400E779B0 /* AccessToken.h */,
+				FEBCF6431DD0D3A400E779B0 /* AccessToken.m */,
+				FEBCF6451DD0D3CB00E779B0 /* ServerManager.h */,
+				FEBCF6461DD0D3CB00E779B0 /* ServerManager.m */,
+				FEBCF5E51DD0CC4F00E779B0 /* AppDelegate.h */,
+				FEBCF5E61DD0CC4F00E779B0 /* AppDelegate.m */,
+				FEBCF6381DD0D2DD00E779B0 /* Models */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		FEBCF5FD1DD0CD8400E779B0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FEB3F8C21DD1D22600E7731E /* cells */,
+				FEBCF6481DD0D5C700E779B0 /* LoginViewController.h */,
+				FEBCF6491DD0D5C700E779B0 /* LoginViewController.m */,
+				FEB3F8BF1DD1CD1500E7731E /* AlbumsViewController.h */,
+				FEB3F8C01DD1CD1500E7731E /* AlbumsViewController.m */,
+				FEB3F8C81DD1E6FB00E7731E /* PhotoListViewController.h */,
+				FEB3F8C91DD1E6FB00E7731E /* PhotoListViewController.m */,
+				FEBCF5EB1DD0CC4F00E779B0 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FEBCF6381DD0D2DD00E779B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEBCF6391DD0D30900E779B0 /* User.h */,
+				FEBCF63A1DD0D30900E779B0 /* User.m */,
+				FEBCF63C1DD0D34500E779B0 /* AlbumInformation.h */,
+				FEBCF63D1DD0D34500E779B0 /* AlbumInformation.m */,
+				FEBCF63F1DD0D36100E779B0 /* PhotoInformation.h */,
+				FEBCF6401DD0D36100E779B0 /* PhotoInformation.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBCF5DE1DD0CC4F00E779B0 /* vkPhotoViewerObjective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBCF5F61DD0CC4F00E779B0 /* Build configuration list for PBXNativeTarget "vkPhotoViewerObjective" */;
+			buildPhases = (
+				121CE79545B9A6857A41B380 /* [CP] Check Pods Manifest.lock */,
+				FEBCF5DB1DD0CC4F00E779B0 /* Sources */,
+				FEBCF5DC1DD0CC4F00E779B0 /* Frameworks */,
+				FEBCF5DD1DD0CC4F00E779B0 /* Resources */,
+				0E8747831A9D2BA7279F0FC0 /* [CP] Embed Pods Frameworks */,
+				0336580D43F73445C34631A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vkPhotoViewerObjective;
+			productName = vkPhotoViewerObjective;
+			productReference = FEBCF5DF1DD0CC4F00E779B0 /* vkPhotoViewerObjective.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBCF5D71DD0CC4F00E779B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Vitaliy;
+				TargetAttributes = {
+					FEBCF5DE1DD0CC4F00E779B0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FEBCF5DA1DD0CC4F00E779B0 /* Build configuration list for PBXProject "vkPhotoViewerObjective" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBCF5D61DD0CC4F00E779B0;
+			productRefGroup = FEBCF5E01DD0CC4F00E779B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBCF5DE1DD0CC4F00E779B0 /* vkPhotoViewerObjective */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBCF5DD1DD0CC4F00E779B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBCF5F21DD0CC4F00E779B0 /* LaunchScreen.storyboard in Resources */,
+				FEB3F8C71DD1D7F100E7731E /* PhotoPreviewCell.xib in Resources */,
+				FEBCF5EF1DD0CC4F00E779B0 /* Assets.xcassets in Resources */,
+				FEB3F8CF1DD1E8BF00E7731E /* PhotoCollectionViewCell.xib in Resources */,
+				FEBCF5ED1DD0CC4F00E779B0 /* Main.storyboard in Resources */,
+				FEBCF5FF1DD0CDB400E779B0 /* Closed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0336580D43F73445C34631A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vkPhotoViewerObjective/Pods-vkPhotoViewerObjective-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E8747831A9D2BA7279F0FC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vkPhotoViewerObjective/Pods-vkPhotoViewerObjective-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		121CE79545B9A6857A41B380 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBCF5DB1DD0CC4F00E779B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBCF63B1DD0D30900E779B0 /* User.m in Sources */,
+				FEB3F8CE1DD1E8BF00E7731E /* PhotoCollectionViewCell.m in Sources */,
+				FEBCF5EA1DD0CC4F00E779B0 /* ViewController.m in Sources */,
+				FEBCF5E71DD0CC4F00E779B0 /* AppDelegate.m in Sources */,
+				FEBCF6441DD0D3A400E779B0 /* AccessToken.m in Sources */,
+				FEB3F8C11DD1CD1500E7731E /* AlbumsViewController.m in Sources */,
+				FEBCF6471DD0D3CB00E779B0 /* ServerManager.m in Sources */,
+				FEBCF64A1DD0D5C700E779B0 /* LoginViewController.m in Sources */,
+				FEB3F8C61DD1D7F100E7731E /* PhotoPreviewCell.m in Sources */,
+				FEBCF5E41DD0CC4F00E779B0 /* main.m in Sources */,
+				FEB3F8CA1DD1E6FB00E7731E /* PhotoListViewController.m in Sources */,
+				FEBCF63E1DD0D34500E779B0 /* AlbumInformation.m in Sources */,
+				FEBCF6411DD0D36100E779B0 /* PhotoInformation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEBCF5EB1DD0CC4F00E779B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBCF5EC1DD0CC4F00E779B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBCF5F01DD0CC4F00E779B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBCF5F11DD0CC4F00E779B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBCF5F41DD0CC4F00E779B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEBCF5F51DD0CC4F00E779B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBCF5F71DD0CC4F00E779B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB5E6E826BE368248827CBC /* Pods-vkPhotoViewerObjective.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vkPhotoViewerObjective/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.vkPhotoViewerObjective;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEBCF5F81DD0CC4F00E779B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4606286116C58659F7044BE3 /* Pods-vkPhotoViewerObjective.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vkPhotoViewerObjective/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.vkPhotoViewerObjective;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBCF5DA1DD0CC4F00E779B0 /* Build configuration list for PBXProject "vkPhotoViewerObjective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBCF5F41DD0CC4F00E779B0 /* Debug */,
+				FEBCF5F51DD0CC4F00E779B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBCF5F61DD0CC4F00E779B0 /* Build configuration list for PBXNativeTarget "vkPhotoViewerObjective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBCF5F71DD0CC4F00E779B0 /* Debug */,
+				FEBCF5F81DD0CC4F00E779B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBCF5D71DD0CC4F00E779B0 /* Project object */;
+}
